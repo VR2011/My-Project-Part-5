@@ -26,31 +26,31 @@ var DamagedR;
 var ready = false;
 var wall;
 function preload() {
-    earth = loadImage('images/earth.png');
-    rocket = loadImage('images/rocket.png');
-    net = loadImage('images/net.png');
-    sat1i = loadImage('images/satellite.png');
-    sat2i = loadImage('images/satellite2.png');
-    sat3i = loadImage('images/satellite3.png');
-    sat4i = loadImage('images/satellite4.png');
-    astronaut = loadImage('images/astronaut.png');
-    helmet = loadImage('images/helmet.png');
-    scrap1 = loadImage('images/scrap.png');
-    scrap2 = loadImage('images/scrap2.png');
-    scrap3 = loadImage('images/scrap3.png');
-    space = loadImage('images/space.jpg');
-    ground_control = loadImage('images/ground-control.png')
+    earth = loadImage('earth.png');
+    rocket = loadImage('rocket.png');
+    net = loadImage('net.png');
+    sat1i = loadImage('satellite.png');
+    sat2i = loadImage('satellite2.png');
+    sat3i = loadImage('satellite3.png');
+    sat4i = loadImage('satellite4.png');
+    astronaut = loadImage('astronaut.png');
+    helmet = loadImage('helmet.png');
+    scrap1 = loadImage('scrap.png');
+    scrap2 = loadImage('scrap2.png');
+    scrap3 = loadImage('scrap3.png');
+    space = loadImage('space.jpg');
+    ground_control = loadImage('ground-control.png')
     spaceFont = loadFont('Chopsic-K6Dp.ttf');
-    damaged1 = loadImage('images/damaged1.png');
-    damaged2 = loadImage('images/damaged2.png');
-    damaged3 = loadImage('images/damaged3.png');
-    damaged4 = loadImage('images/damaged4.png');
-    intro1s = loadSound('sounds/Intro1.wav');
-    intro2s = loadSound('sounds/Intro2.wav');
-    intro3s = loadSound('sounds/Intro3.wav');
-    Song = loadSound('sounds/Space_Debris.mp3');
-    collected = loadSound('sounds/goal.wav');
-    boom = loadSound('sounds/hurt.wav');
+    damaged1 = loadImage('damaged1.png');
+    damaged2 = loadImage('damaged2.png');
+    damaged3 = loadImage('damaged3.png');
+    damaged4 = loadImage('damaged4.png');
+    intro1s = loadSound('Intro1.wav');
+    intro2s = loadSound('Intro2.wav');
+    intro3s = loadSound('Intro3.wav');
+    Song = loadSound('Space_Debris.mp3');
+    collected = loadSound('goal.wav');
+    boom = loadSound('hurt.wav');
     
 }
 
