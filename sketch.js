@@ -220,9 +220,10 @@ function draw() {
         image(space, 400, 500, 1600, 1600);
         button.hide();
         push();
-        translate(400, 1300);
-        rotate(x);
-        image(earth, 0, 0, 1600, 1600);
+        imageMode(CENTER);
+        translate(displayWidth/2, displayHeight*1.5);
+        rotate(x/2);
+        image(earth, 0, 0, displayWidth*1.25, displayHeight*2.5);
         pop();
     
         textSize(20);
