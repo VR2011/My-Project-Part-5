@@ -67,7 +67,6 @@ function setup() {
     recta.addImage(rocket);
     recto = createSprite(recta.x - 40, recta.y + 80, 50, 50);
     recto.addImage(net);
-    recto.debug = true;;
     DamagedR = [rocket, damaged1, damaged2, damaged3, damaged4];
     wall = createSprite(0, 400, 5, 800)
     level1Debris.push(a0);
